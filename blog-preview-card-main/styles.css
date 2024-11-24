@@ -1,0 +1,75 @@
+
+body {
+    background-color: hsl(47, 88%, 63%);
+
+    /* Usamos Flexbox para centralizar o conteúdo */
+    justify-content: center;
+    /* Alinha horizontalmente */
+    align-items: center;
+    /* Alinha verticalmente */
+
+    height: 100vh;
+    /* Faz a altura do body preencher toda a altura da tela */
+    
+    /* Remove a margem padrão do body */
+    height: auto; 
+
+}
+
+.card {
+display:grid;
+    height: 300px; 
+    justify-content: center;
+    align-items: baseline;
+    border-radius: 10px;
+    padding: 100px;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+margin-top: 100px;
+  
+
+}
+
+
+img {
+   
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(15, 49, 80);
+    height: 10px;
+    width: 200px;
+    height: 100px;
+    height: 100px;
+    top: 100px;      
+   
+
+}
+
+button {
+    background-color: hsl(47, 88%, 63%);
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 20px;
+    /* Adiciona uma margem entre o card e a atribuição */
+    font-size: 14px;
+    /* Ajuste no tamanho da fonte */
+}
+
+.attribution a {
+    text-decoration: none;
+    color: #555;
+}
+.P {
+    size: 10px;
+
+
+}
