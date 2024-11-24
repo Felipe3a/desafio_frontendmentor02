@@ -1,75 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
 
 body {
-    background-color: hsl(47, 88%, 63%);
-
-    /* Usamos Flexbox para centralizar o conteúdo */
-    justify-content: center;
-    /* Alinha horizontalmente */
+    display: flex;
     align-items: center;
-    /* Alinha verticalmente */
+    font-family: "Figtree", sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    font-size: 16px;
 
-    height: 100vh;
-    /* Faz a altura do body preencher toda a altura da tela */
-    
-    /* Remove a margem padrão do body */
-    height: auto; 
+
+
 
 }
+
+
+.container {
+
+    max-width: 350px;
+    margin: 0 auto;
+    align-items: center;
+
+
+
+
+}
+
 
 .card {
-display:grid;
-    height: 300px; 
-    justify-content: center;
-    align-items: baseline;
-    border-radius: 10px;
-    padding: 100px;
-    width: 300px;
-    margin: 20px auto;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    font-family: Arial, sans-serif;
-    background-color: aliceblue;
-margin-top: 100px;
-  
+    border: 2px solid rgb(7, 1, 1);
+    box-shadow:10px 10px  hsl(0, 0%, 0%);;
+    width: 337px;
+    height: 500px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px ;
+    padding: 10px;
+    text-align: left;
+
+
 
 }
 
+.card svg {
 
-img {
-   
-    border-radius: 10px;
-    padding: 50px;
-    box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    font-family: Arial, sans-serif;
-    background-color: rgb(15, 49, 80);
-    height: 10px;
-    width: 200px;
-    height: 100px;
-    height: 100px;
-    top: 100px;      
-   
+    border-radius: 12px;
 
 }
 
 button {
+    border: none;
+    border-radius: 2px;
     background-color: hsl(47, 88%, 63%);
+    padding: 5px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+
+    
+
+
+
+
 }
 
-.attribution {
+.text {
+
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.text h5 {
+    color: hsl(0, 0%, 42%);
+    padding-bottom: 10px;
+}
+
+.text h3 {
+    color: hsl(0, 0%, 7%);
+    padding-bottom: 10px;
+    
+}
+
+.text h3:hover{
+
+    color: hsl(47, 88%, 63%) ;
+
+}
+
+p {
+    color: hsl(0, 0%, 42%);
+    padding-bottom: 50px;
+
+}
+
+.pessoa {
+    display: flex;
+    align-items: first baseline;
+    font-size: 7px;
+
+}
+
+.pessoa img {
+    width: 50px;
+}
+
+.pessoa h1 {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+.attribution{
+
+    padding-top: 20px;
     text-align: center;
-    margin-top: 20px;
-    /* Adiciona uma margem entre o card e a atribuição */
-    font-size: 14px;
-    /* Ajuste no tamanho da fonte */
+    font-size: 13px;
 }
 
-.attribution a {
-    text-decoration: none;
-    color: #555;
-}
-.P {
-    size: 10px;
-
-
+@media (max-width: 768px) {
+    
 }
